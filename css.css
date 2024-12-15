@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+
+}
+
+body {
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgb(223, 108, 104) 0%, rgb(236, 165, 10) 100%);
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+label {
+
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente, se necessário */
+    text-align: center;
+    color: antiquewhite;
+
+ 
+
+}
+
+
+input {
+
+
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+h4 {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+button {
+
+    margin: auto;
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+
+#Posicionamento1  {
+ 
+    display: none;
+    width: 150px;
+    height: 160px;
+    margin-left: 75rem;
+    margin-top: 45px;
+    gap: 35px;
+}
+
+
+#magreza, #normal, #sobrepeso, #obesidade{
+    display: none;
+
+
+}
+
+
+#Resultado {
+    text-align: center;
+   
+}
